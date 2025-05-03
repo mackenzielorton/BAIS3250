@@ -16,24 +16,20 @@ This repo contains all the scaffolding for our final data‐wrangling project on
 |---------------------|--------------------------------------------------------------------|
 | `data/raw/`         | Original downloaded data files (unchanged)                         |
 | `data/processed/`   | Cleaned and merged data ready for analysis                         |
-| `notebooks/`        | Jupyter notebooks for EDA, modeling, and reporting                 |
+| `notebook/`         | Jupyter notebooks for EDA, modeling, and reporting                 |
 
 
 ### Data Sources  
-- **Tesla daily prices:** Kaggle (tesla_stock.csv)  
+- **Tesla daily prices:** Kaggle (tesla_stock_2000_2025.csv)  
 - **Inflation (Value):** BEA API  
 - **EPS & Revenue:** Macrotrends  
 
-### How to Run  
-1. `pip install -r requirements.txt`  
-2. Place CSVs in `data/raw/`  
-3. In `notebooks/01_data_wrangling.ipynb`, run cells to clean, merge, and save to `data/processed/merged_data.csv`.
 
 ### Notebooks  
-| Notebook                       | Description                                   |
-|--------------------------------|-----------------------------------------------|
-| `01_data_wrangling.ipynb`      | Ingest, clean, merge raw data into final DF   |
-| `02_EDA_and_Visualizations.ipynb` | Univariate & bivariate analyses                |
+| Notebook                       | Description                                          |
+|--------------------------------|------------------------------------------------------|
+| `tesla_stock.ipynb`            | Ingest, clean, merge raw data into final DF, tests   |
+
 
 ### Links  
 - Raw dataset download: [Kaggle Tesla Stock](https://www.kaggle.com/…/tesla-stock-data)  
